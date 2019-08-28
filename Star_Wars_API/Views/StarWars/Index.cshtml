@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["title"] = "Search";
+}
+
+<h1>Search</h1>
+
+<form action="/StarWars/GetPersonById" method="post">
+   Enter a number for a person:<input type="number" name="Id" placeholder="Person" />
+                               <input type="submit" value="Find Person!" class="btn-default" />
+</form>
+
+<form action="/StarWars/GetPlanetById" method="post">
+    Enter a number for a planet:<input type="number" name="Id" placeholder="Planet" />
+                                <input type="submit" value="Find Planet!" class="btn-default" />
+</form>
